@@ -33,5 +33,18 @@
 			<li>Mother of 2</li>
 			<li>M.Ed.</li>
 		</ul>
+		<p>Nusindah is an educational enthusiast who is constantly looking for ways to bring fresh<br/>
+		and enriching activities to her classroom. One of her main goals is to connect Native youth<br/>
+		with Native professionals working in STEAM fields.</p>
+		<ul>Relevant Technologies:
+			<li>iPhone 8</li>
+			<li>Personal Macbook Pro (silver, 13-inch LED-backlit display with IPS technology<br/>
+				2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors<br/>
+				2.0GHz dual-core Intel Core i5, Turbo Boost up to 3.1GHz, with 4MB shared L3 cache 256GB storage<br/>
+				8GB of 1866MHz LPDDR3 onboard memory</li>
+			<li>School issued 2013 Acer C720 Chromebook (11.6-Inch, 2GB)<br/>
+				Intel Celeron 2955U 1.4 GHz, 11.6-in anti-glare screen, HDMI port<br/>
+				(the ones that have been discontinued)</li>
+		</ul>
 	</body>
 </html>
