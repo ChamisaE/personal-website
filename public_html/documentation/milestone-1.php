@@ -32,6 +32,7 @@
 			<li>Married</li>
 			<li>Mother of 2</li>
 			<li>M.Ed.</li>
+			<li>High school science teacher, engineering club sponsor</li>
 		</ul>
 		<p>Nusindah is an educational enthusiast who is constantly looking for ways to bring fresh<br/>
 		and enriching activities to her classroom. One of her main goals is to connect Native youth<br/>
@@ -53,5 +54,8 @@
 			She has bought some basic engineering kits for her students, but has not appreciated the lack of<br/>
 			technical support from the companies that provide them. She is a regular internet user<br/>
 		and often spends an additional 15-20 hours outside of work preparing activities and projects she's ordered.</p>
+		<p>This user will visit my site to connect about educational kits we provide. She wants to explore what we<br/>
+		offer for order online and how she can implement those activities in her club and classroom. She is excited<br/>
+		to find my company because it is both Native-owned and exactly what she has been looking.</p>
 	</body>
 </html>
