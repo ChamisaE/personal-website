@@ -24,5 +24,14 @@
 		<p>Once I get an internship, I will use this page as an example of work I am capable of creating<br/>
 			when I start to build my company. It will give me the opportunity to continue to hone my<br/>
 			skills as a developer, and serve as a skeleton for me on future websites.</p>
+		<h1><strong>Persona</strong></h1>
+		<img src ="nusindahYaz.jpg">
+		<p><strong>Nusindah Yazzie</strong></p>
+		<ul>
+			<li>40 yo</li>
+			<li>Married</li>
+			<li>Mother of 2</li>
+			<li>M.Ed.</li>
+		</ul>
 	</body>
 </html>
