@@ -35,8 +35,10 @@
 		</ul>
 		<p>Nusindah is an educational enthusiast who is constantly looking for ways to bring fresh<br/>
 		and enriching activities to her classroom. One of her main goals is to connect Native youth<br/>
-		with Native professionals working in STEAM fields.</p>
-		<ul>Relevant Technologies:
+		with Native professionals working in STEAM fields.<br/><br/>
+			Relevant Technologies:
+		</p>
+		<ul>
 			<li>iPhone 8</li>
 			<li>Personal Macbook Pro (silver, 13-inch LED-backlit display with IPS technology<br/>
 				2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors<br/>
@@ -46,5 +48,10 @@
 				Intel Celeron 2955U 1.4 GHz, 11.6-in anti-glare screen, HDMI port<br/>
 				(the ones that have been discontinued)</li>
 		</ul>
+		<p>Nusindah is bilingual (Navajo and English). She is comfortable using computers<br/>
+			and can confidently navigate and use basic classroom technologies (projectors, laptops, etc.).<br/>
+			She has bought some basic engineering kits for her students, but has not appreciated the lack of<br/>
+			technical support from the companies that provide them. She is a regular internet user<br/>
+		and often spends an additional 15-20 hours outside of work preparing activities and projects she's ordered.</p>
 	</body>
 </html>
