@@ -7,4 +7,4 @@ Learning outcomes: creation of a one-page static website with a secure contact f
 ## PWP Milestone 1 Feedback
 Great work - purpose, audience, goal, and persona are well-defined and detailed. Beyond the surface, I can definitey see the opportunities you wish to create for future clients of yours. I look forward to your content strategy and design concepts in the upcoming milestones.
 
-Your project files are set up to spec and code looks good. Your Milestone 1 passes at Tier III. You are now clear to begin work on Milestone 2α.
+Your project files are set up to spec and code looks good. Your Milestone 1 passes at <a href="https://bootcamp-coders.cnm.edu/projects/personal/rubric/">Tier III</a>. You are now clear to begin work on Milestone 2α.
