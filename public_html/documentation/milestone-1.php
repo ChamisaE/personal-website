@@ -5,7 +5,7 @@
 		<title>Chamisa Edmo</title>
 	</head>
 	<body>
-		<img src="PWPwireframes.pdf" alt="2a Wireframes">
+		<a href = "PWPwireframes.pdf" alt="2a Wireframes"></a>
 		<h1><strong>Purpose</strong></h1>
 		<p>The mission of this company is to be one of the foremost providers of technological expertise
 		education<br/>in Indian Country. Using portfolios of previous projects we have developed and contributed
