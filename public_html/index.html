@@ -15,7 +15,7 @@
 	<body>
 		<!--This sets up the navbar for my website-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<a class="navbar-brand" href="#"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -28,16 +28,25 @@
 			</div>
 		</nav>
 		<!--the following adds an circular image to my webpage-->
-		<img src="kween3.jpg" height="316.5" width="316.5" alt="informalHeadShot" class="rounded-circle">
+		<div class="col-sm-12 col-lg-4">
+		<img id="photo" src="kween3.jpg" height="316.5" width="316.5" alt="informalHeadShot" class="rounded-circle">
+		</div>
 
 		<!--the following adds a text card-->
-		<div class="card">
-			<div class="card-body">
-				This is some text within a card body.
-			</div>
+		<div id="About Chamisa" class="container py-5">
+			<h2>Chamisa Edmo</h2>
+			<div class = "row">
+				<div id="bioText" class = "col-sm-12 col-lg-4">
+			<p>Chamisa is a certified web development consultant who works with individuals to help build up their own online presence.<br/>
+
+				Chamisa has supported and taught many start-ups how to build and maintain their websites.
+			</p>
+				</div>
+		</div>
 		</div>
 
 		<!--the following adds the carousel to this site-->
+		<div class="container">
 		<div id="carousel" class="carousel slide w-50" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -68,6 +77,7 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
+		</div>
 		</div>
 			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

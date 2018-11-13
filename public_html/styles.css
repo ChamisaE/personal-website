@@ -11,6 +11,22 @@
 	.container { width: 750px; }
 }
 
+.photo {
+	align-items: flex-start;
+	padding: 1em;
+	margin: 1em;
+}
+
+.container {
+align-items: end;
+}
+
+.bioCard {
+	align-items: flex-end;
+	padding: 1em;
+	margin: 1em;
+}
+
 .carouselSlide {
 	margin: 100rem;
 	padding: 100rem;
