@@ -5,16 +5,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!--link to bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
 	<!--the tab title for my website-->
 	<title>Chamisa Edmo Personal Website</title>
+
+	<!--link to bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
 </head>
 	<body>
 		<!--This sets up the navbar for my website-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light text-dark">
 			<a class="navbar-brand" href="#"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -29,45 +29,41 @@
 		</nav>
 		<!--the following adds an circular image to my webpage-->
 		<div class="col-sm-12 col-lg-4">
-		<img id="photo" src="kween3.jpg" height="316.5" width="316.5" alt="informalHeadShot" class="rounded-circle">
+		<img id="photo" src="CEheadshot.jpg" height="395" width="340" alt="informalHeadShot" class="rounded-circle">
 		</div>
 
 		<!--the following adds a text card-->
-		<div id="About Chamisa" class="container py-5">
-			<h2>Chamisa Edmo</h2>
-			<div class = "row">
-				<div id="bioText" class = "col-sm-12 col-lg-4">
-			<p>Chamisa is a certified web development consultant who works with individuals to help build up their own online presence.<br/>
-
-				Chamisa has supported and taught many start-ups how to build and maintain their websites.
-			</p>
+		<div class="h-100" id="about">
+			<div class="header-content text-black align-middle">
+				<div class="container-fluid header-content-inner text-right p-5 scale" id="bg">
+					<h1> Chamisa Edmo </h1>
 				</div>
-		</div>
+			</div>
 		</div>
 
 		<!--the following adds the carousel to this site-->
-		<div class="container">
-		<div id="carousel" class="carousel slide w-50" data-ride="carousel">
+		<section class="carousel" id="carousel">
+		<div class="carousel slide bg-dark m-6 text-center text-light" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100" src="kween2.jpg" alt="First slide">
-						<p><strong>This will be a one sentence blurb about the project</strong></p>
+					<img class="image" src="kween1.jpg" alt="First slide">
+						<p><strong>This was that one project that broke the internet.</strong></p>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="kween5.jpg" alt="Second slide">
-					<p><strong>This will be a one sentence blurb about the project</strong></p>
+					<img class="image" src="kween5.jpg" alt="Second slide">
+					<p><strong>This is what swaggy looks like.</strong></p>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="kween4.jpg" alt="Third slide">
-						<p><strong>This will be a one sentence blurb about the project</strong></p>
+					<img class="image" src="kween4.jpg" alt="Third slide">
+						<p><strong>Oh, but this is *fire* too.</strong></p>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="kween6.jpg" alt="Fourth slide">
-						<p><strong> This will be a one sentence blurb about the project</strong></p>
+					<img class="image" src="kween6.jpg" alt="Fourth slide">
+						<p><strong>Iconic web dev stuff right here.</strong></p>
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100" src="kween7.jpg" alt="Fifth slide">
-						<p><strong>This will be a one sentence blurb about the project</strong></p>
+					<img class="image" src="kween7.jpg" alt="Fifth slide">
+						<p><strong>Sometimes you need to sip some lemonade and appreciate the artistry.</strong></p>
 				</div>
 			<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -77,23 +73,29 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
-		</div>
-		</div>
-			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		</section>
+				<!--javascript libraries, I believe-->
+				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 <!--the following creates a contact form-->
-			<form>
+				<section class="h-100 bg-light" id="contact">
+					<div class="container-fluid bg-light text-dark p-5">
+						<h2 class="justify-content-center px-md-5 p-md-3">Get in contact</h2>
+			<form class="col-md-3 p-md-4 text-center">
 				<div class="form-group">
 					<input type="email" class="form-control" id="FormControlInput1" placeholder="email">
 				</div>
 				<div class="form-group">
-					<textarea class="form-control" id="FormControlText1" rows="3" placeholder="subject"></textarea>
+					<input type="email" class="form-control" id="FormControlInput2" placeholder="subject"></input>
 				</div>
 				<div class="form-group">
 					<textarea class="form-control" id="FormControlText2" rows="3" placeholder="What can I help you make?"></textarea>
 				</div>
 			</form>
+					</div>
+				</section>
 	</body>
 	<footer>
 		<link href="githubLogo.png" alt="Github">
