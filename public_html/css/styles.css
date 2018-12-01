@@ -1,0 +1,70 @@
+/* create a responsive container */
+@media only screen and (min-width: 1200px) {
+	.container { width: 1170px; }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container { width: 970px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container { width: 750px; }
+}
+#NavAltMarkup {
+	font-size: 2em;
+}
+
+#bg {
+	align-content: flex-end;
+}
+
+#h1 {
+	font-family: Impact sans-serif;
+	font-size: 6em;
+	align-content: flex-end;
+}
+
+#photo {
+	align-items: stretch;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#about {
+	align-items: flex-end;
+	margin-left: 500px;
+	margin-right: 50px;
+	border-color: white;
+}
+
+#spacer{
+	margin: 100px;
+}
+
+.container {
+	align-items: flex-start;
+	padding: 1em;
+	margin: 1em;
+}
+
+.carousel {
+	width:99%;
+	align-content: center;
+}
+
+.carousel-inner-fluid img {
+	margin: auto;
+	align-content: space-between;
+}
+.carouselSlide {
+	margin: 50em auto;
+	padding: 50em auto;
+}
+
+#captions {
+	font-size: 2em;
+}
+
+#contact {
+	justify-content: center;
+}
