@@ -12,11 +12,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css">
 
+	<!--javascript libraries, I believe-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 	<!-- jQuery Form, Validate, Additional Methods, -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
-
 
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -58,13 +63,19 @@
 		<img id="photo" src="img/CEheadshot.jpg" height="370" width="355" alt="informalHeadShot" class="rounded-circle">
 		</div>
 
+		<!--Stamp-->
+		<div class="stamp">
+			<p>{Under Construction}</p>
+		</div>
+
 		<!--the following adds a text card-->
 		<div class="card h-100" id="about">
 			<div class="header-content text-black align-right">
 				<br class="container-fluid header-content-inner text-right p-5 scale" id="bg">
 				<h1 id="h1"> Chamisa Edmo </h1>
-					<p id="para">An Albuquerque based technologist focused on building high quality technical solutions for indigenous people</p>
+					<p id="para">An Albuquerque based technologist focused on building high quality technical solutions for Indigenous people</p>
 				</div>
+
 			</div>
 		<div id="spacer">
 			<br/>
@@ -120,18 +131,15 @@
 		</div>
 		</section>
 		</section>
-
-				<!--javascript libraries, I believe-->
-				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+		<div><br/></div>
+		<!--a fancy line-->
+		<hr class="my-4">
 
 <!--the following creates a contact form-->
 
 				<section class="row justify-content-center text-dark" id="contact">
 					<div class="container-fluid p-4 row justify-content-center">
-			<form id="contact me" class="col-md-3 p-md-4 text-center" action="php/mailer.php" method="post">
+			<form id="contact-form" class="col-md-3 p-md-4 text-center" action="php/mailer.php" method="post">
 				<div class="form-group">
 					<h2 class="row">Get in contact:</h2>
 					<input type="email" class="contactItem" id="email" placeholder="email">
@@ -145,13 +153,14 @@
 
 				<!--recaptcha actions -->
 				<div class="form-group">
-					<div class="g-recaptcha" data-sitekey="6Ldzsn0UAAAAAM5hiIPxIOXGgOSHRLr7jwIqBgqX"></div>
+					<div class="g-recaptcha" data-sitekey="6LfjPn4UAAAAAHonPTJ5P95FUs2kbLWEBnf3XTZd"></div>
 					<div class="col-md-12">
 						<button type="submit" class="btn btn-primary btn-lg">Submit</button>
 					</div>
 				</div>
 			</form>
 						<div id="output-area m-0"></div>
+
 					</div>
 				</section>
 	</body>

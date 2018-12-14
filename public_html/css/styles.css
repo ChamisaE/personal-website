@@ -36,6 +36,9 @@
 	margin-right: 50px;
 	border-color: white;
 }
+#para{
+	font-size: large;
+}
 
 #spacer{
 	margin: 100px;
@@ -68,3 +71,44 @@
 #contact {
 	justify-content: center;
 }
+
+.stamp{
+	align-content: center;
+	justify-content: center;
+	font-size: xx-large;
+	height:100px;
+	width:200px;
+	left:200px;
+	top:20px;
+	border-radius:5px;
+	position:relative;
+	background-color:#DC143C;
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+	animation-delay:2.5s;
+	-webkit-animation-delay:2.5s;
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+	opacity: 0;
+	-webkit-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes pulse{
+	0%{
+		opacity: 0;
+	}
+	10%{
+		opacity:.50;
+		transform-origin: 50% 50%;
+		transform: rotate(-2deg) scale(5);
+		transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+	}
+	100%{
+		opacity:1;
+		transform: rotate(-15deg) scale(1);
+	}
+}
+
+
+
